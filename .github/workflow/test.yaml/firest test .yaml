@@ -32,3 +32,8 @@ jobs:
 
       - name: Package project
         run: npm pack  # Or replace with your package step
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: ./*.tgz

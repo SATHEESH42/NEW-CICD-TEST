@@ -31,4 +31,4 @@ jobs:
         run: npm run build
 
       - name: Package project
-        run: npm pack  # Or replace with your package step
+        run: npm pack 
